@@ -1,0 +1,28 @@
+.sectionGame {
+    padding: 1rem 1rem;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contaiCart {
+    width: 100%;
+    max-width: 1400px;
+}
+
+@media (min-width: 539px) {
+    .container {
+        justify-content: none;
+        align-items: none;
+    }
+}
