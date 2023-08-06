@@ -7,7 +7,8 @@ import Cart from "./Cart/Cart"
 
 const VideoGames = () => {
     const [pagina, setPagina] = useState(1)
-    const [porPagina, setPorPagina] = useState(10)
+    // const [porPagina, setPorPagina] = useState(10)
+    const porPagina = 10
     const maximo: number = Math.ceil(videoGames.length / porPagina)
 
     return (
